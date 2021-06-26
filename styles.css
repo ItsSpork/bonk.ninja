@@ -17,6 +17,7 @@ body {
     background-color: var(--bg-main);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -164,6 +165,7 @@ body::-webkit-scrollbar-thumb {
 
     .creators img {
       width: 64px;
+      height: 64px;
       box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
       margin-top: 30px;
     }
@@ -217,12 +219,13 @@ body::-webkit-scrollbar-thumb {
 
     .creators img {
       width: 128px;
+      height: 128px;
       box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
       margin-top: 30px;
     }
 
     .creators .contents {
-      /* margin-left: 20%; */
+      margin-top: 50px;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
