@@ -365,6 +365,7 @@ footer p::after {
 
 .individual {
   display: flex;
+  width: 10%;
 }
 
 .individual h2 {
